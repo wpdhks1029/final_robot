@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-11-06T08:10:10.799583+00:00",
+  "user_designated_success": true,
+  "leader_original_backup_complete": false,
+  "reference_copies_only": true,
+  "files": {
+    "leader_short_forward_trial.py": "80a71222bf8d8a3aaccaa4bbb586cbc42f24a06fcf1d611cfecabab31b7f24d6",
+    "leader_imu_current.py": "cc91cf4164e85c3f08226dbd0d9658951f4ddc9bb3e90f54fa8e16d77ed6ac1d",
+    "leader_nav2_current.yaml": "316fa27a8cf6afe3668f7057c5f8b9a5580e7360723c8831348095406346654c",
+    "leader_nav_yaw_calibrated.launch.py": "e7ac7e7a3f71371e187c878c831df12d2a2e1a6fb28a88e75591af9075f9b1f8",
+    "leader_ekf_current.yaml": "87a820d46703df4e31756ad0f8f70812f604ba4b4d9448c53fa7c8f07443cf67",
+    "leader_md200t_polling_current.py": "ee294431c4b786ead843a8716ae99d7d4e15ecfd3af5348ec9cdc8297bad14bc",
+    "leader_controller_current.yaml": "d8aa13f0ff4834a6265d609fc222841f035ae2b3c6c053d5a4e140e3a3aec80b",
+    "leader_controller_geometry_candidate.yaml": "0b87ae454aae693060b3a8a3a2861dc54eeba63c87885a8d93c6d9e9b94dc428",
+    "leader_bridge_latest_candidate.py": "c1647d602c905c2532ef485b677ea652809e500b7245d944b118510312da3816",
+    "leader_bag_best_effort.yaml": "42b7f33cf710a7e1b2ae5fef26d2a26e3a2b4379d93c2cc5328170bca1d1b0a5",
+    "leader_md200t_polling_covariance_candidate.py": "d774e7d2f97917c579bc02853a4b6ef2cd0d2565eb76c82af1d2f60b2ba44d72",
+    "leader_imu_no_deadband_candidate.py": "198a7baa598fb3b6dec8bd495942710938a3aabe9930203089bc4ef903054f7e",
+    "leader_bridge_current.py": "7be4aec4720033ebdfca1cf9a399c43ba0175d90102b28fea1cabbab60c00b17",
+    "leader_nav_015_base_current.launch.py": "b25fc340de30471884a0d7d6d8a9886c75cc0253c9a12753f2932f533f7d1c00",
+    "leader_md200t_polling_split_scale_candidate.py": "a982d46feaae49c42d023188f1f28411a0c22f1790042d638a591b99c860f012",
+    "leader_nav_geometry_candidate.launch.py": "ec9322385cb9cae5d6e443de5f56aabcb5100ad23d76d99d9bd43dbf3cb42b58",
+    "leader_ekf_wheel_yaw_candidate.yaml": "46b320089aa064a84357361072c64e0d0caf0d4f66853208aeeeb620762edda3",
+    "leader_md200t_base_current.py": "8febe2d6d56a8f6ef8b1db895997c3f0ba627be135d59c879ddec187f2d1323b",
+    "leader_amcl_current.yaml": "5057c4aee6258b751b6db78606e0b082c5381e197630fe2ecb1cfae0676a1574",
+    "QUANT_TARGET_1_SUCCESS.md": "23537143320f3b2b427c725ff5bca6ea314d9729b71afa7c687a2283385239f6"
+  }
+}

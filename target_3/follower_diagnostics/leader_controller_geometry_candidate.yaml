@@ -1,0 +1,22 @@
+/md200t_controller:
+  ros__parameters:
+    allow_motion: true
+    base_frame_id: base_link
+    baudrate: 57600
+    cmd_vel_timeout: 0.5
+    constrain_lateral_velocity: true
+    controller_id: 1
+    dry_run: false
+    feedback_poll_rate: 10.0
+    feedback_speed_scale: 1.18
+    invert_left: false
+    invert_right: false
+    lateral_velocity_variance: 0.0004
+    max_rpm: 25
+    odom_frame_id: odom
+    serial_port: /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_AP2472IE-if00-port0
+    use_sim_time: false
+    wheel_radius: 0.085
+    wheel_track: 0.56
+    feedback_yaw_scale: 1.0
+    wheel_yaw_rate_variance: 0.0009

@@ -1,0 +1,25 @@
+/imu/data:
+  history: keep_last
+  depth: 5
+  reliability: best_effort
+  durability: volatile
+/odom:
+  history: keep_last
+  depth: 5
+  reliability: best_effort
+  durability: volatile
+/odometry/filtered:
+  history: keep_last
+  depth: 5
+  reliability: best_effort
+  durability: volatile
+/amcl_pose:
+  history: keep_last
+  depth: 5
+  reliability: best_effort
+  durability: volatile
+/cmd_vel:
+  history: keep_last
+  depth: 5
+  reliability: best_effort
+  durability: volatile
