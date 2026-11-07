@@ -1,0 +1,10 @@
+{
+  "target_1": "target_1",
+  "target_1_original_leader_sources_complete": false,
+  "target_3": "target_3/new_map_20261107",
+  "previous_target_3": "target_3",
+  "new_map": "target_3/new_map_20261107/robot_ws/maps/leader_mapping_20261107_143101_9R24Wc/leader_map.yaml",
+  "reference": "target_3/new_map_20261107/reference/new_map_reference_20261107.json",
+  "user_confirmed_working": true,
+  "automatic_evaluation_pass": false
+}

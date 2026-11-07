@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "raw_linear_feedback_scale": 1.1474,
+  "source": "follower_distance_trial_1793787359273312613.json",
+  "physical_distance_m": 1.15,
+  "raw_forward_m": 1.002265361872567,
+  "filtered_forward_m": 1.1594454548132023,
+  "scope": "RPM raw linear feedback only; position-candidate EKF, yaw and motor command conversion unchanged"
+}
