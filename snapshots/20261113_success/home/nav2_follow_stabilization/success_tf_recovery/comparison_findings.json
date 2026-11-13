@@ -1,0 +1,33 @@
+{
+  "repository": "https://github.com/wpdhks1029/final_robot",
+  "tree_sha": "d5dc27a75b9490802141e30c093874dd37729cd9",
+  "local_backup_blob_matches": 818,
+  "comparison": {
+    "follower_localization.launch.py": {
+      "same": true,
+      "backup_sha256": "10e2ce7a23135e1fcc3c3c6a3f4e33cfbb4418807e28aeff6467aa56e2233729",
+      "current_sha256": "10e2ce7a23135e1fcc3c3c6a3f4e33cfbb4418807e28aeff6467aa56e2233729"
+    },
+    "follower_position_fixed_lidar.launch.py": {
+      "same": true,
+      "backup_sha256": "4d463737cded4730ecb70434f7d95071df04e7b95546fe1e68ff0c2963c7bf79",
+      "current_sha256": "4d463737cded4730ecb70434f7d95071df04e7b95546fe1e68ff0c2963c7bf79"
+    },
+    "follower_observation.launch.py": {
+      "same": true,
+      "backup_sha256": "4b50f1454c6ccc1c5f759e2d1bfc36f2d16bd43e5128de496754b473c3ba0398",
+      "current_sha256": "4b50f1454c6ccc1c5f759e2d1bfc36f2d16bd43e5128de496754b473c3ba0398"
+    },
+    "follower_hardware.yaml": {
+      "same": true,
+      "backup_sha256": "722ababf2dde06603fa07f3ebf19ac5e80092f60255e72e29bd59c644749025f",
+      "current_sha256": "722ababf2dde06603fa07f3ebf19ac5e80092f60255e72e29bd59c644749025f"
+    }
+  },
+  "confirmed_failure": "AMCL buffer odom TF remained old while a fresh best-effort observer received current EKF TF; no AMCL map transform output",
+  "hypothesis": "Reliable TF delivery or listener processing stalls in current TF transport path; exact internal DDS cause unproven",
+  "recovery_scope": "success-backup public TF topology for sensors + localization + original bridge; no pose fabrication, freshness bypass, or motor command changes",
+  "map_input_config_missing_from_repo": "robot_ws/src/cnu_capstone_2026/config/follower_amcl_candidate.yaml",
+  "physical_recovery_verified": false,
+  "tests": "4 offline recovery tests passed"
+}

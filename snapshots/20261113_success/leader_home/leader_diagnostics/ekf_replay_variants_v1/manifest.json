@@ -1,0 +1,21 @@
+{
+  "source": "/home/sunuk/leader_diagnostics/bags/lifted_ekf_20261026_175317",
+  "ekf_config": "/home/sunuk/robot_ws/install/leader_robot_control/share/leader_robot_control/config/ekf.yaml",
+  "config_sha256": "b3985194e1b4913b656f7421117db4bfd45d9ded435c467990d03497c7e36b82",
+  "short_warmup_cutoff_ns": 1793004812817049998,
+  "cases": {
+    "finite_vx_covariance": {
+      "kept_messages": 3593,
+      "modified_odom_messages": 128
+    },
+    "vy_constraint": {
+      "kept_messages": 3593,
+      "modified_odom_messages": 531
+    },
+    "short_warmup": {
+      "kept_messages": 2370,
+      "modified_odom_messages": 0
+    }
+  },
+  "note": "Software-only hypotheses; variances are trial values, not calibrated settings."
+}

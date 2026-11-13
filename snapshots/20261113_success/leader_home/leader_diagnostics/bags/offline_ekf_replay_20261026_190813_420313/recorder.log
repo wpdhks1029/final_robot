@@ -1,0 +1,21 @@
+[INFO] [1793009296.520352419] [rosbag2_recorder]: Press SPACE for pausing/resuming
+[INFO] [1793009296.525005469] [rosbag2_storage]: Opened database '/home/sunuk/leader_diagnostics/bags/offline_ekf_replay_20261026_190813_420313/replay_output/replay_output_0.db3' for READ_WRITE.
+[INFO] [1793009296.527242759] [rosbag2_recorder]: Listening for topics...
+[INFO] [1793009296.527252935] [rosbag2_recorder]: Event publisher thread: Starting
+[INFO] [1793009296.527508080] [rosbag2_recorder]: Recording...
+[INFO] [1793009296.527557617] [rosbag2_recorder]: use_sim_time set, waiting for /clock before starting recording...
+[INFO] [1793009297.348826395] [rosbag2_recorder]: Sim time /clock found, starting recording.
+[INFO] [1793009297.351846719] [rosbag2_recorder]: Subscribed to topic '/clock'
+[INFO] [1793009297.352500469] [rosbag2_recorder]: Overriding subscription profile for /imu/data
+[INFO] [1793009297.355975015] [rosbag2_recorder]: Subscribed to topic '/imu/data'
+[INFO] [1793009297.356667326] [rosbag2_recorder]: Overriding subscription profile for /odom
+[INFO] [1793009297.359385720] [rosbag2_recorder]: Subscribed to topic '/odom'
+[INFO] [1793009297.359995852] [rosbag2_recorder]: Overriding subscription profile for /odometry/filtered
+[INFO] [1793009297.361176531] [rosbag2_recorder]: Subscribed to topic '/odometry/filtered'
+[INFO] [1793009297.361738278] [rosbag2_recorder]: Overriding subscription profile for /tf_static
+[INFO] [1793009297.364370845] [rosbag2_recorder]: Subscribed to topic '/tf_static'
+[INFO] [1793009297.364439295] [rosbag2_recorder]: All requested topics are subscribed. Stopping discovery...
+[WARN] [1793009297.364467808] [rosbag2_recorder]: New publisher discovered on topic '/tf_static', offering incompatible QoS. No messages will be sent to it. Last incompatible policy: DURABILITY_QOS_POLICY
+[INFO] [1793009331.589752865] [rosbag2_cpp]: Writing remaining messages from cache to the bag. It may take a while
+[INFO] [1793009331.594123954] [rosbag2_recorder]: Event publisher thread: Exiting
+[INFO] [1793009331.594672612] [rosbag2_recorder]: Recording stopped

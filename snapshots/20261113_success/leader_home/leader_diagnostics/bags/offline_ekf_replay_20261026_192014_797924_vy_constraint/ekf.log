@@ -1,0 +1,2 @@
+[WARN] [1793010021.216590732] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [1793010052.973636686] [rclcpp]: signal_handler(SIGINT/SIGTERM)

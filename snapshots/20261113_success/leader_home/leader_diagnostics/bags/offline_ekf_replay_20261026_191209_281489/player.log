@@ -1,0 +1,7 @@
+[INFO] [1793009532.665708859] [rosbag2_storage]: Opened database '/home/sunuk/leader_diagnostics/bags/lifted_ekf_20261026_175317/lifted_ekf_20261026_175317_0.db3' for READ_ONLY.
+[INFO] [1793009532.666006661] [rosbag2_player]: Set rate to 1
+[INFO] [1793009532.667636187] [rosbag2_player]: Overriding QoS profile for topic /tf_static
+[INFO] [1793009532.670921255] [rosbag2_player]: Overriding QoS profile for topic /imu/data
+[INFO] [1793009532.673096943] [rosbag2_player]: Overriding QoS profile for topic /odom
+[INFO] [1793009532.682363841] [rosbag2_player]: Sleep 3000000000 ns
+[INFO] [1793009535.684544521] [rosbag2_storage]: Opened database '/home/sunuk/leader_diagnostics/bags/lifted_ekf_20261026_175317/lifted_ekf_20261026_175317_0.db3' for READ_ONLY.

@@ -1,0 +1,3 @@
+variant=finite_vx_covariance
+input=/home/sunuk/leader_diagnostics/ekf_replay_variants_v1/finite_vx_covariance/input
+params=/home/sunuk/leader_diagnostics/ekf_replay_variants_v1/finite_vx_covariance/ekf.yaml

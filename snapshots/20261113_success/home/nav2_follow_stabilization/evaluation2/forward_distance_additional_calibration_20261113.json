@@ -1,0 +1,11 @@
+{
+  "previous_scale": 0.93146016011216,
+  "new_scale": 0.9004114881084213,
+  "operator_reported_previous_completed_travel_m": 2.9,
+  "requested_travel_m": 3.0,
+  "extra_raw_travel_ratio": 1.0344827586206897,
+  "new_raw_odom_target_m": 3.3318099997839665,
+  "scope": "forward distance trial only",
+  "obstacle_stop_unchanged": true,
+  "provisional_retest_required": true
+}

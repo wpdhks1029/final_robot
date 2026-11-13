@@ -1,0 +1,3 @@
+variant=short_warmup
+input=/home/sunuk/leader_diagnostics/ekf_replay_variants_v1/short_warmup/input
+params=/home/sunuk/leader_diagnostics/ekf_replay_variants_v1/short_warmup/ekf.yaml

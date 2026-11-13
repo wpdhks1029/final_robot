@@ -1,0 +1,73 @@
+{
+  "mode": "offline_straight_line_assumption_model",
+  "assumptions": "Offline one-dimensional model, not hardware or physical safety validation.\n\nAssumptions: straight line, first-order velocity response tau=.15s, 100ms\nmeasurement delay, fresh 10Hz poses, every third leader RPM sample reports zero.\nNo wheel slip, obstacles, steering, encoder faults or DDS behavior is modeled.\n",
+  "results": [
+    {
+      "smooth": false,
+      "initial_gap": 1.57,
+      "response_tau": 0.15,
+      "delay_s": 0.1,
+      "zero_every": 3,
+      "modeled_drive_stop_edges": 336,
+      "gap_min": 1.5700998613447656,
+      "gap_max": 2.2420123044306113,
+      "max_follower_request": 0.1,
+      "minimum_gap_during_scheduled_stop": 1.933892150515644,
+      "final_gap": 2.2420123044306113
+    },
+    {
+      "smooth": true,
+      "initial_gap": 1.57,
+      "response_tau": 0.15,
+      "delay_s": 0.1,
+      "zero_every": 3,
+      "modeled_drive_stop_edges": 0,
+      "gap_min": 1.5028403730219129,
+      "gap_max": 1.5768487499682624,
+      "max_follower_request": 0.1,
+      "minimum_gap_during_scheduled_stop": 1.5028403730219129,
+      "final_gap": 1.5240557583927945
+    },
+    {
+      "smooth": true,
+      "initial_gap": 1.45,
+      "response_tau": 0.3,
+      "delay_s": 0.2,
+      "zero_every": 3,
+      "modeled_drive_stop_edges": 0,
+      "gap_min": 1.4500515944119747,
+      "gap_max": 1.5299377847336832,
+      "max_follower_request": 0.04915501452611913,
+      "minimum_gap_during_scheduled_stop": 1.495520449795708,
+      "final_gap": 1.5283172472056172
+    },
+    {
+      "smooth": true,
+      "initial_gap": 1.8,
+      "response_tau": 0.3,
+      "delay_s": 0.2,
+      "zero_every": 3,
+      "modeled_drive_stop_edges": 0,
+      "gap_min": 1.5076399526555098,
+      "gap_max": 1.8062903547779958,
+      "max_follower_request": 0.1,
+      "minimum_gap_during_scheduled_stop": 1.5077712444052032,
+      "final_gap": 1.5331375357778194
+    },
+    {
+      "smooth": true,
+      "initial_gap": 1.57,
+      "response_tau": 0.15,
+      "delay_s": 0.1,
+      "zero_every": 0,
+      "modeled_drive_stop_edges": 0,
+      "gap_min": 1.4640587348869345,
+      "gap_max": 1.5765668766437502,
+      "max_follower_request": 0.1,
+      "minimum_gap_during_scheduled_stop": 1.4640587348869345,
+      "final_gap": 1.4983309272190373
+    }
+  ],
+  "hardware_io": false,
+  "physical_validation": false
+}

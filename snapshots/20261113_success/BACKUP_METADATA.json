@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-13",
+  "leader_archive_sha256": "cca5fa5ef06bf5e94e5e06a905680cbfd745b7848c3293076207bf7feb91c750",
+  "user_confirmed_goal3_wait_resume_success": true,
+  "formal_evaluation_pass_claimed": false,
+  "source_only": true,
+  "raw_telemetry_and_build_outputs_excluded": true,
+  "local_dependency_files_added": [
+    "home/nav2_follow_stabilization/unicast_wire.py"
+  ]
+}

@@ -1,3 +1,19 @@
+# 전체 로봇 성공 구성 백업 — 정량목표1~3
+
+현재 성공 구성: [2026-11-13 스냅샷](snapshots/20261113_success/README.md)
+
+실행 명령: [현재 목표별 실행표](snapshots/20261113_success/RUNBOOK_KO.md)
+
+- 선두 원본: snapshots/20261113_success/leader_home/
+- 후발 원본: snapshots/20261113_success/home/
+- 목표별 분리 저장소: capstone_goal1, capstone_goal2, capstone_goal3
+- 기존 target_1~3 파일과 이전 Git 기록은 보존했습니다.
+- 이전 main은 backup-before-20261113 브랜치에도 보존했습니다.
+
+---
+
+## 이전 백업 안내 (보존)
+
 # 최신 사용자 확인 성공 버전 — 새 지도 적용 (2026-11-07)
 
 **현재 평가3 기준은 [target_3/new_map_20261107](target_3/new_map_20261107/README.md)입니다.** 새 지도 YAML/PGM, 새 기준선, 현재 소스·설정, 재출발 RPM 수정, 전체 시험 로그 압축 백업을 포함합니다. 기존 지도 성공 백업은 아래 경로에 그대로 보존했습니다.

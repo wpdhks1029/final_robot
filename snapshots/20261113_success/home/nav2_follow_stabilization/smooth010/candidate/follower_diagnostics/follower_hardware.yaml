@@ -1,0 +1,68 @@
+# 후발 실물 확인값. 이 파일만으로 노드를 실행하지 않는다.
+follower_md200t_pid4:
+  ros__parameters:
+    use_sim_time: false
+    port: /dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.4:1.0-port0
+    baudrate: 19200
+    driver_id: 1
+    wheel_radius: 0.065
+    wheel_track: 0.560
+    invert_left: true
+    invert_right: false
+    enable_hardware_polling: false
+
+follower_imu:
+  ros__parameters:
+    use_sim_time: false
+    port: /dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.3:1.0-port0
+    baudrate: 115200
+    frame_id: follower/imu_link
+    rate: 20.0
+
+# launch가 읽는 센서 실장값. 단위 m/rad, 사용자 확인 2026-10-27.
+# base_link 원점: 바퀴축 중앙의 바닥 투영점, x 전방/y 좌측/z 위.
+follower_sensor_tf:
+  ros__parameters:
+    imu_xyz: [0.0, 0.0, 0.16]
+    imu_rpy: [0.0, 0.0, 0.0]
+    laser_xyz: [0.26, 0.0, 0.24]
+    # 최종 실물 정합 확인: yaw 0, 임시 12도/180도 옵션 없이 사용.
+    laser_rpy: [0.0, 0.0, 0.0]
+
+# G2B: 현재 수신 설정을 복사하고 RViz 방향 확인값 inverted=true 적용.
+# 거리 정확도와 시작 시 checksum 오류의 지속 여부는 별도 미검증.
+follower_lidar:
+  ros__parameters:
+    use_sim_time: false
+    port: /dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.1:1.0-port0
+    frame_id: follower/laser
+    ignore_array: ""
+    baudrate: 230400
+    lidar_type: 1
+    device_type: 0
+    sample_rate: 5
+    abnormal_check_count: 4
+    fixed_resolution: false
+    reversion: true
+    inverted: true
+    auto_reconnect: true
+    isSingleChannel: false
+    intensity: true
+    intensity_bit: 8
+    support_motor_dtr: false
+    angle_max: 180.0
+    angle_min: -180.0
+    range_max: 16.0
+    range_min: 0.28
+    frequency: 10.0
+    invalid_range_is_inf: false
+    debug: false
+
+# 실측 외곽과 보호 계산 시험값. 실제 모터 정지거리 검증값이 아니다.
+follower_obstacle_preview:
+  ros__parameters:
+    body_width: 0.60
+    front_extent: 0.27
+    rear_extent: 0.27
+    hard_stop_clearance: 0.30
+    slow_clearance: 0.60

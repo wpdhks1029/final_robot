@@ -1,0 +1,20 @@
+{
+  "profile": "CONTINUOUS10_STOP05_WAIT_V1",
+  "remote_reference_loss": "unbounded zero-speed wait; same session resumes after fresh stable input and measured zeros",
+  "maximum_motion_source_age_s": 0.6,
+  "motor_source_limit_s": 0.8,
+  "stale_in_transit_action": "zero-only hold until fresh STOP acknowledgment; no stale motion queued",
+  "total_session_seconds": 0,
+  "hardware_command_feedback_response_timeouts_preserved": true,
+  "physical_run_executed": false,
+  "tests": {
+    "wait_and_operator_integration": 19,
+    "driver_wait_and_fault_regression": 75,
+    "controller_regression": 37,
+    "scan_alignment_wait_regression": 18
+  },
+  "preserved_run_backup": "backups/eval3_user_confirmed_1794561585604490550",
+  "live_tf_stack": "success_tf_recovery/start_localization.bash",
+  "operator_entrypoint": "success_tf_recovery/start_evaluation3_wait.bash",
+  "scan_alignment_wait": "no alignment timeout in reference-wait mode; fresh aligned pairs for 1s and measured zero before resume; local sensor faults preserved"
+}

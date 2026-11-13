@@ -1,0 +1,20 @@
+[INFO] [1793010062.483875993] [rosbag2_recorder]: Press SPACE for pausing/resuming
+[INFO] [1793010062.488881823] [rosbag2_storage]: Opened database '/home/sunuk/leader_diagnostics/bags/offline_ekf_replay_20261026_192059_572942_short_warmup/replay_output/replay_output_0.db3' for READ_WRITE.
+[INFO] [1793010062.490567734] [rosbag2_recorder]: Listening for topics...
+[INFO] [1793010062.490625208] [rosbag2_recorder]: Event publisher thread: Starting
+[INFO] [1793010062.490751773] [rosbag2_recorder]: Recording...
+[INFO] [1793010062.490794014] [rosbag2_recorder]: use_sim_time set, waiting for /clock before starting recording...
+[INFO] [1793010065.965277055] [rosbag2_recorder]: Sim time /clock found, starting recording.
+[INFO] [1793010065.969000890] [rosbag2_recorder]: Subscribed to topic '/clock'
+[INFO] [1793010065.969972410] [rosbag2_recorder]: Overriding subscription profile for /imu/data
+[INFO] [1793010065.975014785] [rosbag2_recorder]: Subscribed to topic '/imu/data'
+[INFO] [1793010065.976759995] [rosbag2_recorder]: Overriding subscription profile for /odom
+[INFO] [1793010065.981440085] [rosbag2_recorder]: Subscribed to topic '/odom'
+[INFO] [1793010065.982602780] [rosbag2_recorder]: Overriding subscription profile for /odometry/filtered
+[INFO] [1793010065.984368694] [rosbag2_recorder]: Subscribed to topic '/odometry/filtered'
+[INFO] [1793010065.985335190] [rosbag2_recorder]: Overriding subscription profile for /tf_static
+[INFO] [1793010065.990146229] [rosbag2_recorder]: Subscribed to topic '/tf_static'
+[INFO] [1793010065.990288473] [rosbag2_recorder]: All requested topics are subscribed. Stopping discovery...
+[INFO] [1793010083.127001427] [rosbag2_cpp]: Writing remaining messages from cache to the bag. It may take a while
+[INFO] [1793010083.131215967] [rosbag2_recorder]: Event publisher thread: Exiting
+[INFO] [1793010083.131516073] [rosbag2_recorder]: Recording stopped

@@ -1,0 +1,38 @@
+real_follower_bridge:
+  ros__parameters:
+    map_frame: map
+    base_frame: follower/base_link
+    filtered_odom_topic: /follower/odometry/filtered
+    output_topic: /follower/odom_map
+    publish_rate: 10.0
+
+real_pure_pursuit:
+  ros__parameters:
+    leader_path_topic: /leader/path
+    leader_odom_topic: /leader/odom
+    follower_odom_topic: /follower/odom_map
+    cmd_vel_raw_topic: /follower/cmd_vel_raw
+    follow_dist: 1.5
+    stop_dist: 1.0
+    lookahead_dist: 0.8
+    leader_stop_threshold: 0.03
+    max_linear: 0.10
+    min_linear: 0.03
+    max_angular: 0.20
+    control_rate: 20.0
+
+real_apf_avoidance:
+  ros__parameters:
+    scan_topic: /follower/scan
+    raw_cmd_topic: /follower/cmd_vel_raw
+    output_cmd_topic: /follower/cmd_vel
+    leader_odom_topic: /leader/odom
+    follower_odom_topic: /follower/odom_map
+    influence_radius: 0.70
+    repulsive_gain: 0.50
+    safety_dist: 0.25
+    leader_filter_radius: 0.50
+    max_linear: 0.10
+    max_angular: 0.20
+    avoidance_speed_scale: 0.60
+    control_rate: 20.0

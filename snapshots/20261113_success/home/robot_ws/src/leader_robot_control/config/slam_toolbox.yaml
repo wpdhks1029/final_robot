@@ -1,0 +1,50 @@
+slam_toolbox:
+  ros__parameters:
+
+    use_sim_time: false
+
+    # TF frames
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_link
+
+    # LiDAR
+    scan_topic: /scan
+
+    # Mapping mode
+    mode: mapping
+
+    # Map resolution
+    resolution: 0.05
+
+    # Maximum laser range
+    max_laser_range: 16.0
+
+    # Update rates
+    minimum_time_interval: 0.1
+    transform_publish_period: 0.05
+    map_update_interval: 2.0
+
+    # TF timeout
+    transform_timeout: 0.2
+    tf_buffer_duration: 30.0
+
+    # Scan matching
+    use_scan_matching: true
+    use_scan_barycenter: true
+
+    minimum_travel_distance: 0.05
+    minimum_travel_heading: 0.05
+
+    # Loop closure
+    do_loop_closing: true
+
+    loop_search_maximum_distance: 3.0
+
+    # Scan processing
+    scan_buffer_size: 10
+    scan_buffer_maximum_scan_distance: 10.0
+
+    # General
+    debug_logging: false
+    enable_interactive_mode: true

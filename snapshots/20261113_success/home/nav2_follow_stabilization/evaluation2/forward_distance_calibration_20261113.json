@@ -1,0 +1,9 @@
+{
+  "measured_travel_m": 2.8,
+  "raw_odom_travel_m": 3.0060330220273124,
+  "distance_scale": 0.9314601601121597,
+  "raw_odom_target_for_3m": 3.2207496664578352,
+  "scope": "evaluation2 forward distance operator only; reverse uncalibrated",
+  "measurement_assumption": "same physical reference point at start and finish",
+  "retest_required": true
+}

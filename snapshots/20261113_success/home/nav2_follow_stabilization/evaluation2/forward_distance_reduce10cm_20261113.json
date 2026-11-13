@@ -1,0 +1,12 @@
+{
+  "previous_scale": 0.900411488108421,
+  "new_scale": 0.9304252043787017,
+  "operator_measured_m": 3.1,
+  "desired_m": 3.0,
+  "raw_odom_target_m": 3.2243322578554525,
+  "requested_travel_ratio": 0.9677419354838709,
+  "direction": "forward",
+  "speed_mps": 0.1,
+  "operator_clear_path": true,
+  "provisional_retest_required": true
+}

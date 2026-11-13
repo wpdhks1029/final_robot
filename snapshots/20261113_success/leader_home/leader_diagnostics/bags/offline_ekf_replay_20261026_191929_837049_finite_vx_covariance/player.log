@@ -1,0 +1,7 @@
+[INFO] [1793009973.614661035] [rosbag2_storage]: Opened database '/home/sunuk/leader_diagnostics/ekf_replay_variants_v1/finite_vx_covariance/input/input_0.db3' for READ_ONLY.
+[INFO] [1793009973.614963509] [rosbag2_player]: Set rate to 1
+[INFO] [1793009973.616626732] [rosbag2_player]: Overriding QoS profile for topic /tf_static
+[INFO] [1793009973.620023229] [rosbag2_player]: Overriding QoS profile for topic /imu/data
+[INFO] [1793009973.622297864] [rosbag2_player]: Overriding QoS profile for topic /odom
+[INFO] [1793009973.632541274] [rosbag2_player]: Sleep 3000000000 ns
+[INFO] [1793009976.634791277] [rosbag2_storage]: Opened database '/home/sunuk/leader_diagnostics/ekf_replay_variants_v1/finite_vx_covariance/input/input_0.db3' for READ_ONLY.

@@ -1,0 +1,23 @@
+{
+  "source": "operator-provided 15 second public TF diagnosis",
+  "reason": "FOLLOWER_MAP_ODOM_RECEIVED",
+  "tf_scope": "public",
+  "observed_seconds": 15,
+  "amcl_state": "active",
+  "odom_map_count": 152,
+  "odom_map_source_age_s_at_end": 0.071907389,
+  "filtered_count": 288,
+  "filtered_source_age_s_at_end": 0.023844639,
+  "scan_count": 133,
+  "scan_source_age_s_at_end": 0.127868708,
+  "map_to_base_lookup_available": true,
+  "map_to_base_source_age_s_at_end": 0.071907389,
+  "odom_map_publishers": [
+    "real_follower_bridge"
+  ],
+  "warning": "One Bridge source delay of 0.165s observed",
+  "confirmed": "map odometry and dynamic TF reception recovered in this observation after switching to success-backup public TF stack",
+  "not_confirmed": "long-run stability, hardware driving or exact internal DDS cause",
+  "evaluation3_operator_wrapper": "~/nav2_follow_stabilization/success_tf_recovery/start_evaluation3.bash",
+  "follower_motor_driver": "~/nav2_follow_stabilization/evaluation3_clearance10_stop05/start_follower_driver.bash"
+}

@@ -1,0 +1,14 @@
+{
+  "previous_scale": 0.930425204378702,
+  "new_scale": 0.9355942332919172,
+  "runs": 3,
+  "measured_total_m": 9.05,
+  "target_total_m": 9.0,
+  "requested_travel_ratio": 0.9944751381215469,
+  "raw_odom_target_per_run_m": 3.206518267480559,
+  "assumption": "all 3 runs used previous scale and same physical measurement reference",
+  "direction": "forward",
+  "speed_mps": 0.1,
+  "reverse_changed": false,
+  "retest_required": true
+}

@@ -1,0 +1,12 @@
+{
+  "follower_hardware.yaml": {
+    "source": "/home/sunuk/nav2_follow_stabilization/smooth010/candidate/follower_diagnostics/follower_hardware.yaml",
+    "destination": "/home/sunuk/nav2_follow_stabilization/evaluation3_clearance10_stop05/driver/follower_hardware.yaml",
+    "sha256": "722ababf2dde06603fa07f3ebf19ac5e80092f60255e72e29bd59c644749025f"
+  },
+  "follower_odometry_calibration.json": {
+    "source": "/home/sunuk/nav2_follow_stabilization/smooth010/candidate/follower_diagnostics/follower_odometry_calibration.json",
+    "destination": "/home/sunuk/nav2_follow_stabilization/evaluation3_clearance10_stop05/driver/follower_odometry_calibration.json",
+    "sha256": "bdb755deb5558b9288af8a937db4563de85e80a0c9c20c344a1eead07fc2f217"
+  }
+}

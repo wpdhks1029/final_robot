@@ -1,0 +1,850 @@
+{
+  "created_ns": 1793621342547568457,
+  "scope": "로컬 기준 파일 지문. 60초 후보는 코드 준비·메모리검사만 완료, 기본시연30초와 구분. 선두 실행파일 자동대조 아님.",
+  "files": [
+    {
+      "path": "/home/sunuk/follower_diagnostics/COMPLETION_ROADMAP_20261102.md",
+      "sha256": "46a8a4b4319c38c060a497258803e9f8b4429f877e197d95132e1b4fbef10eff"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/CURRENT_BASELINE_20261102.md",
+      "sha256": "e237e3d76f32c03f1e2baf7fd81ab458be2d19221159a1e72ed4b352cc6f99f5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/adjust_initial_pose.py",
+      "sha256": "e8072f0e9b4d7e741a7139925b83fd02e3966c05f209707e84e04630007b6a27"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/analyze_leader_turn_bag.py",
+      "sha256": "435b479c0001b81baa523bd423675d7284cc01512fde3673d863a885d353d35c"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/analyze_lidar_packets.py",
+      "sha256": "bb55f93374a671feaa68382cd49b2358014689f45ed86922a8a2cc86e9a130de"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/analyze_position_trace.py",
+      "sha256": "176ca64b545ca130cff927e2f166f93a8b0ce9de65551a1aecfd86f044d0eb69"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/analyze_scan_anomalies.py",
+      "sha256": "3ef7d20d750e3fed1bcc8ecebccc15610b5a4bb01b35858774f938aabc3f62c1"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/capture_scan_anomalies.py",
+      "sha256": "fcd087ff667e950278a1980c59e8f6e0cfac54ece3922b19e80b2484bc958997"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_clock_offset.py",
+      "sha256": "c0bbdb0465c4d76793b18ec74c5a2dd1536d6c1fb3cab59fad349749da0329e0"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_convoy_chain_ros.py",
+      "sha256": "5512ac2c651ca0353fee16e12fc4a3408b522d82f0fc37b591bae835f1dc92f2"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_convoy_rx.py",
+      "sha256": "834b4bd0dadc49e5249c79e7da1b8ac6065001a1ba3d06080f5ab8765c0ba498"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_drive_node_ros.py",
+      "sha256": "1b4c09ec625d721aa26b2d748bed9b78051dc26ffc61bb0e9fb7631e69c7d2f8"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_follow_start.py",
+      "sha256": "f8e952d2124bb4bb2df42cbaa4492c757e3e0cf83be914f298f5820f4923c38d"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_gateway_startup.py",
+      "sha256": "7dafccfb09834b499bb61ad9101395efe7157a1708369944c3ec30837ef3d677"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_guard_gateway_ros.py",
+      "sha256": "8d04680b058c748f31eca20e462e1b6fb176ef7bb7fc535d95751358fa4995c3"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_leader_bridge_latest_ros.py",
+      "sha256": "b4d0aaae5b82a9805b323bb09b236cdb333e98db55061d50388201314d676dbd"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_motor_mock_ros.py",
+      "sha256": "700ea3410484a7c154a27f2292fb878435223cc6b64709275b5bef2c7ee4d485"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_obstacle_preview_ros.py",
+      "sha256": "84fc7f83b42ddbe630f6af7d334fb26294cfbae7ac92d772d0c6e41817b45220"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_position_ekf_live.py",
+      "sha256": "d434912fd594d454b47b9842b6fd1ed6dfd773307619f8144209341af0576284"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_pursuit_preview_ros.py",
+      "sha256": "dcda733070701dbfaaa388ed3de3d83bbd5007254f7ab2f62594613dfd082290"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_scan_turn_offline.py",
+      "sha256": "22392f4db00e504da42dfde089a8521bf71d662e07a7683334ebd370389664a4"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_scan_turn_point_plane_offline.py",
+      "sha256": "fea4088e8979cbf782044b9a0c00d4d40120280559d190608627b4a50fbc1d9b"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_source_budget.py",
+      "sha256": "1655a603683a45a9c6ed8cfe1e469e96a904d71fe8d877a68f580da3261fe492"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_stamped_guard_ros.py",
+      "sha256": "490c3e029bae3e39439802f14f1f2ea58859aa2eff83e06d0b60ff6d6f2c21db"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/check_timing_pipeline.py",
+      "sha256": "2ac9ab344efe1b02c96092c5e7ae30ca84f61f56d624d0092b8c0a12bb7c3808"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/compare_fresh_ekf.py",
+      "sha256": "f96f771d1b4403348f272e2496360991eca3721f3b9ddc76de5e427ef72146b3"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/compare_leader_turn_ekf.py",
+      "sha256": "8633ee4e520c197f894d2fd624d0378dca549e11779ebb4bbaacb7b6f523d212"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/convoy_preview_preflight.py",
+      "sha256": "82dd05c07587d0027c4ba01d37aebf90c413fada039b0006b37e698bc864fa03"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/download_mdrobot_reference.py",
+      "sha256": "bad91a88c13b8d2aa9de46e500653a79b99c8c2f358f5df87ecaec8c2c551a25"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_comparison_observer.py",
+      "sha256": "520545176ce88d471cf01a18cd0b5297fe278e7c8bce7e5269fcc0d1b1dd1681"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_convoy_preview.launch.py",
+      "sha256": "d1f6c4f205a781c099ead288499199aa90d45f9aa62298411a864bf95504343f"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_drive_candidate.py",
+      "sha256": "e758f534fda97366b9114f9927e616dace2f56bbb36c39aadfd44e10b20fa3d1"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_drive_node.py",
+      "sha256": "ba8a42779e0356c736933930d45f6543dda71320780eafdeaebd08e24ecc6aaa"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_ekf_comparison_observer.py",
+      "sha256": "2528f11f326b5ddce4ac11588a580996a47fdb6b132c2fc357c85d364edd9248"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_ekf_position_candidate.yaml",
+      "sha256": "95ef8a8ca7ff2620c0d742c80646aee1766160b10cbebd459d3e82c526fb91dd"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_feedback_trace.py",
+      "sha256": "a9e6792a4331ebdf0de3278508618f4e35069c7c986198a4ff7d70a0c0aeb2f1"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_ground_pulse.py",
+      "sha256": "6c9551908ae086bb0b16dca84f7b6fb5fbe4fb8c43ddfe4c21af9b333e032187"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_guard_gateway.py",
+      "sha256": "911574daad05cc24d911f56f1109693dfa721f6f6c92ec7c2d66aa6e176f4050"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_hardware.yaml",
+      "sha256": "722ababf2dde06603fa07f3ebf19ac5e80092f60255e72e29bd59c644749025f"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_lifted_pulse.py",
+      "sha256": "ab0bebce56fafcfe51a0dc5f31062b55c00c96b5e26fa039f6e9013e353eda19"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_lifted_turn.py",
+      "sha256": "5e6c5027438cc885f535fffe5dd1829038876153343649f6cbb48a9377612536"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_localization.launch.py",
+      "sha256": "bb957496f25602b1233c5772d340b695248039b4f9f8b1af497836a7e5d09b06"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_measurement_session.py",
+      "sha256": "071bca2450a8c443b9d2beb1e6c97153992e50d0df530425f2949725b139ea05"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_motor_candidate.py",
+      "sha256": "90624262e269ae887141587db4450ccff58a4714470282d5a739f1443da1a40e"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_motor_locked.py",
+      "sha256": "aa3f990c74a78e0a620998968ba976dd4048d14657491250b5107fc43d835f45"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_motor_mock.py",
+      "sha256": "ef83f1463b0903dcb7b4f7d9bde57b1f3c7d7586fb8a25c65dbf767d177b022f"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_motor_port.py",
+      "sha256": "1cb8e11351f7527998225faac018188342f5c447566d6bc1b34b75514b9decf5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_motor_session.py",
+      "sha256": "044d8da93aa062096a10b2db47804ac87437a18f4657c8d0aaa66d94e94719dc"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_observation.launch.py",
+      "sha256": "4b50f1454c6ccc1c5f759e2d1bfc36f2d16bd43e5128de496754b473c3ba0398"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_obstacle_preview.py",
+      "sha256": "56c200775f52735a9e1947ab064fee12be2c4cd7761e5587606f6a1ec3185190"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_position_ekf_test.yaml",
+      "sha256": "2d9597087a195c3d131b74f52bbaf6050f80009115328f725639e661902952f6"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_position_fixed_lidar.launch.py",
+      "sha256": "4d463737cded4730ecb70434f7d95071df04e7b95546fe1e68ff0c2963c7bf79"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_position_observation.launch.py",
+      "sha256": "1bdbfe7668cff165e2ab98088dff04f76f66d70a19ba6355bcec836df53f251e"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_position_preview.py",
+      "sha256": "ebc0a8f0d4dbbd15a41599388640bc949af3e7c8d233b3e2cce6ad88dabbf8b7"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_pulse_odom.py",
+      "sha256": "eb996d549fc93a7aa0aea35e7bd8cefb5a1ba1e785f74c46a22502f364f3cf80"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_pursuit_preview.py",
+      "sha256": "7f5ab2adc3f84a31afba770098b0791c5d2328f0dead4622909a6999f8061577"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_remote_qos.py",
+      "sha256": "15c543010692c5c280e90f55111c792a7c462f7132952c6e25be9ad51cc08d7b"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_stamped_preview.py",
+      "sha256": "c249ccd6410d26670f76b427e6fd098cf60e8139a120fa2feeb3798105a10860"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/follower_turn_measurement_session.py",
+      "sha256": "15c3dcadd73e4417799402dee227c1be6de47571ee17bc70279335a239c47af4"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/inspect_near_scan.py",
+      "sha256": "de13aa2c68092e18ddcb6d27f55f8d59be5d03c832992e76ad90db86d8c4c7e5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/inspect_wheel_position.py",
+      "sha256": "7ae5d396dea52ba66d1398fa0b155962c05fc8b4d4ed1f67c7263695adc7b350"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_amcl_current.yaml",
+      "sha256": "5057c4aee6258b751b6db78606e0b082c5381e197630fe2ecb1cfae0676a1574"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_bag_best_effort.yaml",
+      "sha256": "42b7f33cf710a7e1b2ae5fef26d2a26e3a2b4379d93c2cc5328170bca1d1b0a5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_bridge_current.py",
+      "sha256": "7be4aec4720033ebdfca1cf9a399c43ba0175d90102b28fea1cabbab60c00b17"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_bridge_latest_candidate.py",
+      "sha256": "c1647d602c905c2532ef485b677ea652809e500b7245d944b118510312da3816"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_controller_current.yaml",
+      "sha256": "d8aa13f0ff4834a6265d609fc222841f035ae2b3c6c053d5a4e140e3a3aec80b"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_controller_geometry_candidate.yaml",
+      "sha256": "0b87ae454aae693060b3a8a3a2861dc54eeba63c87885a8d93c6d9e9b94dc428"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_ekf_current.yaml",
+      "sha256": "87a820d46703df4e31756ad0f8f70812f604ba4b4d9448c53fa7c8f07443cf67"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_ekf_wheel_yaw_candidate.yaml",
+      "sha256": "46b320089aa064a84357361072c64e0d0caf0d4f66853208aeeeb620762edda3"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_imu_current.py",
+      "sha256": "cc91cf4164e85c3f08226dbd0d9658951f4ddc9bb3e90f54fa8e16d77ed6ac1d"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_imu_no_deadband_candidate.py",
+      "sha256": "198a7baa598fb3b6dec8bd495942710938a3aabe9930203089bc4ef903054f7e"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_md200t_base_current.py",
+      "sha256": "8febe2d6d56a8f6ef8b1db895997c3f0ba627be135d59c879ddec187f2d1323b"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_md200t_polling_covariance_candidate.py",
+      "sha256": "d774e7d2f97917c579bc02853a4b6ef2cd0d2565eb76c82af1d2f60b2ba44d72"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_md200t_polling_current.py",
+      "sha256": "ee294431c4b786ead843a8716ae99d7d4e15ecfd3af5348ec9cdc8297bad14bc"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_md200t_polling_split_scale_candidate.py",
+      "sha256": "a982d46feaae49c42d023188f1f28411a0c22f1790042d638a591b99c860f012"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_nav_015_base_current.launch.py",
+      "sha256": "b25fc340de30471884a0d7d6d8a9886c75cc0253c9a12753f2932f533f7d1c00"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_nav_geometry_candidate.launch.py",
+      "sha256": "ec9322385cb9cae5d6e443de5f56aabcb5100ad23d76d99d9bd43dbf3cb42b58"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/leader_short_forward_trial.py",
+      "sha256": "80a71222bf8d8a3aaccaa4bbb586cbc42f24a06fcf1d611cfecabab31b7f24d6"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/CMakeLists.txt",
+      "sha256": "0c41dbb15f64c35f36278859bd7a568c8376f02d362620af216ace2072010347"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/build/lidar_sdk_trace_node",
+      "sha256": "2fb2ac9e6f0268020969e583e04127cfba30f8c1d53b6bd68ad035662576e03d"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/lidar_sdk_trace_node.cpp",
+      "sha256": "af71b4a569bcc225c6180e9a2913faa62a8b32777089231df38397199536f6dd"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/base/datatype.h",
+      "sha256": "0e9d8f47d3ded16ec4c5e005c0eff6cda4cf20b19a5d93f02c16a1a0b27d4dd1"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/base/locker.h",
+      "sha256": "b1d0b9eba92cf663438e9a724365bbef6efe360bbe315edf838bbfcf8bd4f91f"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/base/thread.h",
+      "sha256": "358fc7be2ada0de4d6d51471131b84009631aef37d787704d0876d27793fd58a"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/base/timer.cpp",
+      "sha256": "9c967553c6107296a849ddb57775c1c628ef3bc5795ecbbac255219b751a70fe"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/base/timer.h",
+      "sha256": "6f3a668ecdf36f9cf0efe8f777eea4039d83abf8da747d6cb6e2bd0bfd994a15"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/base/typedef.h",
+      "sha256": "cbd91503b776153bd7752f20bc1be986673f8989e1b58be64d4690f21306ea74"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/base/utils.h",
+      "sha256": "2f692e1ec2dd384872977752a1834bcc7966604a9cc8b891e88751afb5eda18f"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/base/v8stdint.h",
+      "sha256": "d012c95faadc22442d20b6379bbad02e8d94c4223250c2d2872d09f3b30bb7b6"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/base/ydlidar.h",
+      "sha256": "775781d2b5952f05310140fc2c8908c1f9e6ed34892044d45ffd1f582357c6f5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/common/ChannelDevice.h",
+      "sha256": "00f052c8742d51d2cc560ec3df5f37354540e9ee47e0df93e65ed475ec5f2b3b"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/common/DriverInterface.h",
+      "sha256": "e8442ea9357e307fea918d8ab16845dd5e5e708e4da3d0044e57d2f735f11239"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/common/YdDataStream.cpp",
+      "sha256": "4d549a6f900f0c21b4d820f1f7777dbf86a3a7cdc531c76bfc94fccbe4c8a2c5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/common/YdDataStream.h",
+      "sha256": "b718dca7c0a33515ca3abebe91df99cef57c2388a133fe9f8c4a3a0eb2c4902d"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/common/ydlidar_datatype.h",
+      "sha256": "8ef378b12b2b1d7456626c563e18a8a3bc69513c43561c5eacb519fbf767ff0d"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/common/ydlidar_def.cpp",
+      "sha256": "2f977b7f1e68ef894445ce8ff3e6fe8aa398874aabbfabf07d3310dc95bcde4d"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/common/ydlidar_def.h",
+      "sha256": "7565e77a109830261b3daa772d6a8c887364d01244f99305e5dda787672129d3"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/common/ydlidar_help.h",
+      "sha256": "7516a1c78939840dd4de81b75fef0734b67cbfc61d839c8baf9d4f542a781837"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/common/ydlidar_protocol.h",
+      "sha256": "2336cd03bb5b5eeb88fa6c277e01805486f75bfde2771c67b37cb4dcbdc6a3a9"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/json/cJSON.h",
+      "sha256": "6fdbda3b180088601e466650064c6d7ec9d8cee6e2198a0aafbd36a56f4e1eb3"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/math/angles.h",
+      "sha256": "50a31ab9a04c05d3cea1a53598bd89749817200d39c6bee87d62517812a95dcb"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/network/ActiveSocket.cpp",
+      "sha256": "267a645749f1cdaa67ad49558b0a0f91f1a34ffaf479cd8ea184f6e67b33be88"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/network/ActiveSocket.h",
+      "sha256": "a121e497675108caa5ad8d60ee833cd2f032469f0543d11cbff60da3f6e3fd0d"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/network/PassiveSocket.cpp",
+      "sha256": "26b8f1b23254353b9abca1d8bc395df4b70a602e37d3c68daa609e951522156c"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/network/PassiveSocket.h",
+      "sha256": "92a4a5359b253f39030eb78387d9fd50d7f47802e218b92f56c346e2862a588e"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/network/SimpleSocket.cpp",
+      "sha256": "09948180949588cdaa054f32afb8ef4544a18edc0a1ef2724c9dc289fec407d5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/network/SimpleSocket.h",
+      "sha256": "cf1f6f63f3e57333dbc60de4e611f6525f3642f63bdddf710e5216a575be0eb0"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/network/StatTimer.h",
+      "sha256": "6ac14e58c29b0fa314669594b4380274c324609b802ff7efc22a8f03a3b36542"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/serial/common.h",
+      "sha256": "9400bba61599ff69f2d0eac88dbbc5a85038b6c50ed0268bfa553bf726abb8c3"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/serial/impl/unix/list_ports_linux.cpp",
+      "sha256": "7e3942dbda6db80b0d145f35860196a3ae3d1bfed2c782f3e5b5b8aa5d221d04"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/serial/impl/unix/lock.h",
+      "sha256": "26dc878967751962721398d226288adbcf9b3b3b3ff656f65910bbdbf5d6a234"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/serial/impl/unix/unix.h",
+      "sha256": "3070bb5d727bdf7b9dd52b5509072178b730985709b17ad4b01a1e5f6cd154e4"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/serial/impl/unix/unix_serial.cpp",
+      "sha256": "28085dd1603f1bc24e7902a8b6474dd484368531ac53f7e8c938fecf4dec94a5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/serial/impl/unix/unix_serial.h",
+      "sha256": "0764401c632ec47802918ee570c04193f8ad02e99a8de25f98b2d50c20de7e8e"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/serial/impl/windows/list_ports_win.cpp",
+      "sha256": "c7d3d84e312e00122dcdf3700fea318deb41b2109dd6359042bc2a4677f5a1c5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/serial/impl/windows/win.h",
+      "sha256": "578b9dd6f507d50eb129d68364c941504c56bd053c13367da3474bd5990ccf1f"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/serial/impl/windows/win_serial.cpp",
+      "sha256": "997f2273f87ddb01e545f97ea3c9a4c93b92bc6c4722a58e07683c5ad7573697"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/serial/impl/windows/win_serial.h",
+      "sha256": "5fa09f867049cb85c82db3500e3da81216f340320885c16ff836ed0cecaef6fc"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/serial/serial.cpp",
+      "sha256": "30466d993a0ff6155486d279a6d6ed3b6b72b29f55d2e646910dbd5c0333f07c"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/core/serial/serial.h",
+      "sha256": "9d456f8240399720545b7883b4e2fa46ed8d0fdaa568abd80463587b365fd7dd"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/CYdLidar.cpp",
+      "sha256": "80420f68f0f0f19550cfff59be90b7d3d08b3bfb705a91cf83dc3cf484990b48"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/CYdLidar.h",
+      "sha256": "4e9b4d5dfdf1fa21ec035fbd39639394cd80d6ab15b8822f6bd60bd4dbc68d3a"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/DTSLidarDriver.cpp",
+      "sha256": "78a977e44e79f9765b7df326d1515927b71bbf82eead1c8b350a1a4c17427223"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/DTSLidarDriver.h",
+      "sha256": "5ca81b0b03f438b797a851432d0cc0926ec3f8e54caab9d1da7e77ed4417ded1"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/ETLidarDriver.cpp",
+      "sha256": "8f3b999fe8a0fa83fa7dcb3d84f2ee29034bc5af7a92b988cedabc649f6204bb"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/ETLidarDriver.h",
+      "sha256": "0e3bd57ae4e8b629b803e53c23ec00f568be07af4d9d960654599ecb842b5c46"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/GSLidarDriver.cpp",
+      "sha256": "fa55ff3ec7ecceab358f9aef6180ae6c1671e8b6247aec7ec234b1d3fcdc998e"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/GSLidarDriver.h",
+      "sha256": "61eb210f6fcc27a0c75fb36aa63b4f73eb95440e3bc0de25d582c8f4e4fab8c1"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/SDMLidarDriver.cpp",
+      "sha256": "2d16fde6e82a0dccde1b954f6560212644ec0a2eb0e6913fbd3714056800f33a"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/SDMLidarDriver.h",
+      "sha256": "7f3f00e95f19dd7ee4b8c79b635f943827b7d1ae18af62ca82dfd9ddb44a193a"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/TiaLidarDriver.cpp",
+      "sha256": "5216b306142baff96e0fefdf3ec2744434f887797c496cc4e7419c1d6bd9e1ba"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/TiaLidarDriver.h",
+      "sha256": "a66f63fc3872a53099fa4a01a3dab8657210ea0ffa37f769fcb6928e4f6a9a2e"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/YDlidarDriver.cpp",
+      "sha256": "122df1f8056218b920dc5785dafdd4d7a984b93038d5dd5ec337d6010d98c27e"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/YDlidarDriver.h",
+      "sha256": "59490b5287c1042031f46d2d92429a5921ce1a2f1b2450d997cbc7179c15342d"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/filters/FilterInterface.h",
+      "sha256": "4b1aa0ed20f5de611f5a00b979e209fa8d7999e832f786ecdb0206ca0cfc34b7"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/filters/NoiseFilter.cpp",
+      "sha256": "0cbc0f267dd787982e6d7410eeeb7d4524c51c0c6b7ce65a818c82b3ad9e4065"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/filters/NoiseFilter.h",
+      "sha256": "e6e79bcee464433ac25b064f545371aa8689b2f5a068d398758ee8f52be06420"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/filters/StrongLightFilter.cpp",
+      "sha256": "c0e00c04ae8b8a0595749aa52883b3469d3b7a71e5cbb7cd2d6e0da8f07f540c"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/filters/StrongLightFilter.h",
+      "sha256": "f5e9e6d71f8098aa9df7957485eb017e3cc65600be22384e99f5fe696d391074"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/ydlidar_sdk.cpp",
+      "sha256": "989980b26b436d898498f65ac9da8c1a8f711e89681709df577ea1c5916494fd"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/src/ydlidar_sdk.h",
+      "sha256": "6798b85485c435691b0a91ca3ba8bf2bbb82615d6c581ec7ccfa5876a2b0c087"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/lidar_sdk_trace/sdk/ydlidar_config.h",
+      "sha256": "891635ded015990b6124e6af7368463579a13a68497c0abf95609be2420f10a0"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/position_profile_contract.py",
+      "sha256": "24aff86c55c671e8a4ca4cef7331817ed4ac2ed5c460b6dffeaf722deb58e93f"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/read_md200t_settings.py",
+      "sha256": "ab457d22d13834db200646f2114fa18616d7458ff6d88e941536124720766d6d"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/real_follower_bridge_tf_candidate.before_latest_input_20261031.py",
+      "sha256": "b9c1b1ad50802e06265a84faff847b4d78c36b5b8688bf2713bf93895f3d90cb"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/record_bridge_delivery.py",
+      "sha256": "bd0fa206d6bf7a5fa4af2ed3ff552484527c75442273cc5cc46aca2445c4edcb"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/record_odom_diagnostic.py",
+      "sha256": "b05447ab59154b20c00b843ab1b340095e636b1b902c57a30af45cd114ba4238"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/replay_ekf_diagnostic.py",
+      "sha256": "4aee6ba0d80edd2c788b7b5921ea3e13755068f477f30257f6056c232a801134"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/run_guarded_follow_trial.py",
+      "sha256": "056e2d9129d6cfef1f2c47ae1c08ffdd3f0b7876e2fcae3a45ae8b3d3a6c765a"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/run_joint_follow_trial.py",
+      "sha256": "27a76ec30ee1730ff1e5e5bfc333c6588d65a28893f175f80d38eae1a2f88529"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/run_lidar_sdk_trace.py",
+      "sha256": "8bf5388709a0b0d0a39fe64c045c1a568fbb465605c4fde3be5300a449ee790e"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/start_lidar_fixed_candidate.py",
+      "sha256": "627e5ae3209ac982df96d180c411821a47f33c976861d69dad5da4bd2a3e895c"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_adjust_initial_pose.py",
+      "sha256": "bab9512e588b589791cd9c219b80da46ef44fa3620105896865f4cf117320bef"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_comparison_observer.py",
+      "sha256": "fb5bb22974054387a9482361c22389e224c9efc687e248460a34278a23895f7e"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_convoy_preview_launch.py",
+      "sha256": "c12f1573cbb761fdc03cfe2862c64b3ad71a1f5cc9d5315c8c8a41504fc7ce71"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_convoy_preview_preflight.py",
+      "sha256": "33cad08713e72a9aef540c0b6dc3ce23975ad0b13445aa0db55b9af384fa94d5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_drive_candidate.py",
+      "sha256": "abd92ec0a804bbc4f9016d3d985b81ca36f2ed99d1ef161ad35249b456c18bfa"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_drive_node_cli.py",
+      "sha256": "ba5de5f196abe91ba8bfd8fd34699b37ea5b4cdf91fab9b7ec651a556a827c19"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_ekf_comparison_observer.py",
+      "sha256": "cfe9f6b434e23303821466e2377b57fcd227c10bb9e3d4afd8ccee7608606080"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_ekf_replay.py",
+      "sha256": "50a211497afcc1e559bb047e3b5f6b8c2e981e233c49c1277501ab9ff204535c"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_feedback_trace.py",
+      "sha256": "8fca5703b9200fd40d7bb4f4935f3384d3324aad139a6f12df9624b3c0ad34e1"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_fixed_lidar_launch.py",
+      "sha256": "56af6cb444bf5774e56ffe2c2ba928e51418fbf0f0bb7e243fa7eb2d185ae306"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_follow_start_report.py",
+      "sha256": "6149be15cc3deab0164dd42171687cf8fa6a1c9ce24047fb86bfaeb42c2cd7b3"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_follow_trial_policy.py",
+      "sha256": "7370d436c19d8938f36861c182cb92906eb4b5730e82875ff6f9100e5a4157af"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_fresh_comparison.py",
+      "sha256": "f687489ce958b1089d7f29c621cdca0971d7f245517a74e44c3b02d779529d6d"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_gap_recovery_model.py",
+      "sha256": "4499e8f99232f5e419f9a11e35576ab375626607ae25a115a005eaced90d0978"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_gateway_discovery.py",
+      "sha256": "b0bc59c74a93b14af1d0f058476099642fe724c7100edff052ebc352c14a5ba2"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_guard_gateway.py",
+      "sha256": "3c49bb24a9c479318afa472b6a49cbe172d35a1d64391cd743ddae32bf8793a7"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_guard_status.py",
+      "sha256": "e9c331d895136d5079808aa5136886194a9b8369452e3e0a91a341934c096ef1"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_joint_follow_trial.py",
+      "sha256": "0c0f5dfd41e5b255a8ce1f6ad7d1186f54ed42fb6ed5b543e568d5a342c98145"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_joint_operator_flow.py",
+      "sha256": "7e9a796d90f06660e4e214e2ea80451e800715cee7c98e5b929a1506bd5aaa65"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_leader_bridge_latest.py",
+      "sha256": "b4ed30049d1426b07a0e57e2847f30ce78606561912d49b0a0d5d1b78788d47a"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_leader_ekf_candidate.py",
+      "sha256": "b3de35c651a70bf505ae0bd67d10a6f039fc9af9f9676233069663805e0b9ea4"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_leader_geometry_launch.py",
+      "sha256": "9e6749a88e76a59ebb8e4993f63910b1e77b35537eddd715d5f8cc5380772ab5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_leader_imu_candidate.py",
+      "sha256": "7da2b4c8e2514828452f11ea3b90c48264c84a49f449cc9d44256e0d54e8560a"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_leader_short_trial.py",
+      "sha256": "d8404e572de468698f3ef7ca56a3bb1d0fd335a307029fcfd446b733c3cf046c"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_leader_split_scale.py",
+      "sha256": "f0c72b32adb1d85e686324d89becabbb086738b2bb4214c96a4255c93fbabed0"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_leader_yaw_covariance.py",
+      "sha256": "decfbeed1841bc02da9a80e2d98b8af5cfe31aa443697b1e05af8c9d784e0670"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_lidar_packets.py",
+      "sha256": "6bcaa647b6df1d3f872378caff89a22be546380edf5417c229cb61edcbc1610b"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_lifted_pulse.py",
+      "sha256": "90be13eb1dd520000f4e8ae78cb2ef1e6e5bed2802a175b76082b4e7c6dbde94"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_lifted_turn.py",
+      "sha256": "7ceee63cc3c738f1fb0e5a3b2b3fd75d529801ae63124b57b847a7e60628e3e4"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_md200t_settings.py",
+      "sha256": "88acecbf1597dd48d3eaa239a22aa6790aaa63233386ee3d424e1ca79cfc0c50"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_motor_candidate.py",
+      "sha256": "ce93815b127a681aba654a6ce96872e77d9d981860d1cb69b9613e662c4795b5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_motor_io_diagnostics.py",
+      "sha256": "a86e65b1a30f081508525d8f2626a464388c9eae6f9e955139db01e622b05631"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_motor_locked.py",
+      "sha256": "41379fc39a039a395c81a4717791f25d67822331d34aaf2a58dd8f57c4e6f417"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_motor_mock.py",
+      "sha256": "40d3654f0fc8cbed876101f6ea3080276598c2741b7ec373ff13e6f9fe25ed65"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_motor_port.py",
+      "sha256": "86a8422dfff876858daf672bd732af09bddc32c19a12f3057c2647f9dc0c0cc5"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_motor_session.py",
+      "sha256": "9ab591d3de5204db0416697c02696cdff58f2ccc13e380ac90037ba3c969bc07"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_obstacle_preview.py",
+      "sha256": "f343b4a556afe7f5b4056b09458f4697b177b0d545faa5276947247705494332"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_obstacle_trial_contract.py",
+      "sha256": "4389d60be44fc6f1a8a97fd9a3ea67d2d0d730e1ac96d99e192d9dc3c8673c1f"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_odom_diagnostic.py",
+      "sha256": "d5372354975db4d178b0898beb9043fd855fcd71c5a74e2012b0382dc719eaa8"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_position_analysis.py",
+      "sha256": "d913e84d14b19b056de975357fc12d9bf152a0a03d9583d4fb29bb6c1b411e84"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_position_ekf_test.py",
+      "sha256": "3a06f57d41897d0c1c182799e4ffae7c579871f34544b18207c24159c03ce4d0"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_position_preview.py",
+      "sha256": "7992a87a248812f306c3941bc9b754d78cf273fa4eacc75549d6bca99be9f9bf"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_position_profile.py",
+      "sha256": "9f460495f105591b81cea6a95302b37972fdadaf4e8e1a7e2ffb7051724248cb"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_pulse_odom.py",
+      "sha256": "d313ae6faeb859f9c700050d94ac9faf47bc6149e7183fa7e42798cefebb7237"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_pursuit_geometry.py",
+      "sha256": "eecc556aae75ead9e26f1cb446d9e44ea82802a5192412f617d046b3ffa942e7"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_pursuit_preview.py",
+      "sha256": "a207b2c80ff8e87b1bc4caa9e7bf3ca9eafe9a479ffeaf843999f20247eae2ba"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_scan_anomaly_analysis.py",
+      "sha256": "3f7a35c4602190f494cac8ed58ac5257533118db7c9f05d0249b326108a6a76f"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_scan_anomaly_shadow.py",
+      "sha256": "0fe24ac75dbbdc5bc1b5098b01ff586c9dcfc9aa4cc2687f25f096b6933a949a"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_scan_turn_offline.py",
+      "sha256": "75e3999958d6a2f7e0f7194c27cc206f83cc825886ae5a5053ee70dc62deb81f"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_scan_turn_point_plane.py",
+      "sha256": "785663e837120c211c2f8ada0dd910f6bbe9d4b6d212a1417b83f367a470bf86"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_single_write_serial.py",
+      "sha256": "2a8612e21ddbf9821b5f493f2252cfb521a3d780dbba8764c9a12f7021fbd9de"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_source_budget.py",
+      "sha256": "c09932da57b08689859cead8e4280de6d2f03857e51942bfe6c9870f735baf7e"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_stamped_preview.py",
+      "sha256": "2eb47bbdcefc96b9965be41a635f029a675ccc9f8ef796667e3a5775d860b6a8"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_timing_pipeline.py",
+      "sha256": "beb19ae3b8f8aa5843e600cfb40c4d23e2347aa2dfce7a9707310bdaec095e56"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_turn_measurement.py",
+      "sha256": "64093a3adeec28249c687d515204363225cd86a864829b2d7ebce123ff2c4b48"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/test_wheel_position.py",
+      "sha256": "8487c968ca5953d1f27c8b1389d6cfd777a74fa17cb5528a8f9eeddb0d3d84ed"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/watch_obstacle_events.py",
+      "sha256": "71b3756ab35cea60ca5a467f421ff1ee8b00f6667f19b379ffaf251171ca3065"
+    },
+    {
+      "path": "/home/sunuk/follower_diagnostics/watch_scan_anomaly_shadow.py",
+      "sha256": "94b4690b07170b1df4eb0cb0a8bce85370a1743a1139f46876cbe594548a0a8d"
+    },
+    {
+      "path": "/home/sunuk/robot_ws/src/cnu_capstone_2026/convoy_robot/real_follower_bridge_tf_candidate.py",
+      "sha256": "031fd970835e34ab167c6f1993a583b9ef50a208c20fb09c0781ec26b3adee27"
+    }
+  ]
+}

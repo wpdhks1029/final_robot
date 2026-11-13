@@ -1,0 +1,6 @@
+[INFO] [1793009297.325311570] [rosbag2_storage]: Opened database '/home/sunuk/leader_diagnostics/bags/lifted_ekf_20261026_175317/lifted_ekf_20261026_175317_0.db3' for READ_ONLY.
+[INFO] [1793009297.325583771] [rosbag2_player]: Set rate to 1
+[INFO] [1793009297.342241889] [rosbag2_player]: Sleep 3000000000 ns
+[WARN] [1793009297.342893495] [rosbag2_player]: New subscription discovered on topic '/tf_static', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: DURABILITY_QOS_POLICY
+[WARN] [1793009297.364226232] [rosbag2_player]: New subscription discovered on topic '/tf_static', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: DURABILITY_QOS_POLICY
+[INFO] [1793009300.344310237] [rosbag2_storage]: Opened database '/home/sunuk/leader_diagnostics/bags/lifted_ekf_20261026_175317/lifted_ekf_20261026_175317_0.db3' for READ_ONLY.

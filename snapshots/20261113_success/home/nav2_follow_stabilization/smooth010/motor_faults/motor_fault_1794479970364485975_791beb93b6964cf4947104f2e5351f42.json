@@ -1,0 +1,564 @@
+{
+  "version": 1,
+  "kind": "motor_first_fault_snapshot",
+  "ros_ns": 1794479970364485975,
+  "fault": "RESPONSE_TIMEOUT",
+  "armed": false,
+  "last_sent_rpm": [
+    0,
+    0
+  ],
+  "feedback": {
+    "m1_rpm": 0,
+    "m2_rpm": 0,
+    "m1_status": 0,
+    "m2_status": 0,
+    "m1_position": -5025,
+    "m2_position": 4943,
+    "m1_io": null,
+    "m2_io": null
+  },
+  "valid_feedback": 5482,
+  "device_error": null,
+  "io_error": null,
+  "response_error": {
+    "mono": 16299.531651136,
+    "waiting_s": 0.3001536629999464,
+    "tick_gap_s": 0.02024016399991524,
+    "since_feedback_s": 0.38019716199960385,
+    "armed": false,
+    "last_sent": [
+      0,
+      0
+    ],
+    "pending_stops": 0,
+    "rx_available_bytes": 0,
+    "buffered_bytes": 0,
+    "buffered_hex": "",
+    "execution_delay_exceeded_timeout": false,
+    "tx_count": 5497,
+    "valid_feedback": 5482,
+    "history": [
+      {
+        "event": "rx",
+        "mono": 16298.371388721,
+        "size": 20,
+        "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+      },
+      {
+        "event": "feedback",
+        "mono": 16298.371388721,
+        "rpm": [
+          0,
+          0
+        ]
+      },
+      {
+        "event": "tx",
+        "mono": 16298.451758842,
+        "request_started": 16298.451554961,
+        "packet_hex": "b7 b8 01 04 01 d8 b3",
+        "preempt": true,
+        "response_started": 16298.451554961
+      },
+      {
+        "event": "rx",
+        "mono": 16298.49142882,
+        "size": 20,
+        "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+      },
+      {
+        "event": "feedback",
+        "mono": 16298.49142882,
+        "rpm": [
+          0,
+          0
+        ]
+      },
+      {
+        "event": "tx",
+        "mono": 16298.551851068,
+        "request_started": 16298.55160541,
+        "packet_hex": "b7 b8 01 04 01 d8 b3",
+        "preempt": true,
+        "response_started": 16298.55160541
+      },
+      {
+        "event": "rx",
+        "mono": 16298.591426864,
+        "size": 20,
+        "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+      },
+      {
+        "event": "feedback",
+        "mono": 16298.591426864,
+        "rpm": [
+          0,
+          0
+        ]
+      },
+      {
+        "event": "tx",
+        "mono": 16298.67175669,
+        "request_started": 16298.671534624,
+        "packet_hex": "b7 b8 01 04 01 d8 b3",
+        "preempt": true,
+        "response_started": 16298.671534624
+      },
+      {
+        "event": "rx",
+        "mono": 16298.711430427,
+        "size": 20,
+        "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+      },
+      {
+        "event": "feedback",
+        "mono": 16298.711430427,
+        "rpm": [
+          0,
+          0
+        ]
+      },
+      {
+        "event": "tx",
+        "mono": 16298.791712311,
+        "request_started": 16298.791492597,
+        "packet_hex": "b7 b8 01 04 01 d8 b3",
+        "preempt": true,
+        "response_started": 16298.791492597
+      },
+      {
+        "event": "rx",
+        "mono": 16298.831626835,
+        "size": 20,
+        "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+      },
+      {
+        "event": "feedback",
+        "mono": 16298.831626835,
+        "rpm": [
+          0,
+          0
+        ]
+      },
+      {
+        "event": "tx",
+        "mono": 16298.911610082,
+        "request_started": 16298.911403275,
+        "packet_hex": "b7 b8 01 04 01 d8 b3",
+        "preempt": true,
+        "response_started": 16298.911403275
+      },
+      {
+        "event": "rx",
+        "mono": 16298.951594659,
+        "size": 20,
+        "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+      },
+      {
+        "event": "feedback",
+        "mono": 16298.951594659,
+        "rpm": [
+          0,
+          0
+        ]
+      },
+      {
+        "event": "tx",
+        "mono": 16299.011686826,
+        "request_started": 16299.011482945,
+        "packet_hex": "b7 b8 01 04 01 d8 b3",
+        "preempt": true,
+        "response_started": 16299.011482945
+      },
+      {
+        "event": "rx",
+        "mono": 16299.05147593,
+        "size": 20,
+        "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+      },
+      {
+        "event": "feedback",
+        "mono": 16299.05147593,
+        "rpm": [
+          0,
+          0
+        ]
+      },
+      {
+        "event": "tx",
+        "mono": 16299.111802143,
+        "request_started": 16299.111597503,
+        "packet_hex": "b7 b8 01 04 01 d8 b3",
+        "preempt": true,
+        "response_started": 16299.111597503
+      },
+      {
+        "event": "rx",
+        "mono": 16299.151453974,
+        "size": 20,
+        "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+      },
+      {
+        "event": "feedback",
+        "mono": 16299.151453974,
+        "rpm": [
+          0,
+          0
+        ]
+      },
+      {
+        "event": "tx",
+        "mono": 16299.231732502,
+        "request_started": 16299.231497473,
+        "packet_hex": "b7 b8 01 04 01 d8 b3",
+        "preempt": true,
+        "response_started": 16299.231497473
+      }
+    ]
+  },
+  "feedback_error": null,
+  "io_history": [
+    {
+      "event": "feedback",
+      "mono": 16298.371388721,
+      "rpm": [
+        0,
+        0
+      ]
+    },
+    {
+      "event": "tx",
+      "mono": 16298.451758842,
+      "request_started": 16298.451554961,
+      "packet_hex": "b7 b8 01 04 01 d8 b3",
+      "preempt": true,
+      "response_started": 16298.451554961
+    },
+    {
+      "event": "rx",
+      "mono": 16298.49142882,
+      "size": 20,
+      "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+    },
+    {
+      "event": "feedback",
+      "mono": 16298.49142882,
+      "rpm": [
+        0,
+        0
+      ]
+    },
+    {
+      "event": "tx",
+      "mono": 16298.551851068,
+      "request_started": 16298.55160541,
+      "packet_hex": "b7 b8 01 04 01 d8 b3",
+      "preempt": true,
+      "response_started": 16298.55160541
+    },
+    {
+      "event": "rx",
+      "mono": 16298.591426864,
+      "size": 20,
+      "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+    },
+    {
+      "event": "feedback",
+      "mono": 16298.591426864,
+      "rpm": [
+        0,
+        0
+      ]
+    },
+    {
+      "event": "tx",
+      "mono": 16298.67175669,
+      "request_started": 16298.671534624,
+      "packet_hex": "b7 b8 01 04 01 d8 b3",
+      "preempt": true,
+      "response_started": 16298.671534624
+    },
+    {
+      "event": "rx",
+      "mono": 16298.711430427,
+      "size": 20,
+      "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+    },
+    {
+      "event": "feedback",
+      "mono": 16298.711430427,
+      "rpm": [
+        0,
+        0
+      ]
+    },
+    {
+      "event": "tx",
+      "mono": 16298.791712311,
+      "request_started": 16298.791492597,
+      "packet_hex": "b7 b8 01 04 01 d8 b3",
+      "preempt": true,
+      "response_started": 16298.791492597
+    },
+    {
+      "event": "rx",
+      "mono": 16298.831626835,
+      "size": 20,
+      "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+    },
+    {
+      "event": "feedback",
+      "mono": 16298.831626835,
+      "rpm": [
+        0,
+        0
+      ]
+    },
+    {
+      "event": "tx",
+      "mono": 16298.911610082,
+      "request_started": 16298.911403275,
+      "packet_hex": "b7 b8 01 04 01 d8 b3",
+      "preempt": true,
+      "response_started": 16298.911403275
+    },
+    {
+      "event": "rx",
+      "mono": 16298.951594659,
+      "size": 20,
+      "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+    },
+    {
+      "event": "feedback",
+      "mono": 16298.951594659,
+      "rpm": [
+        0,
+        0
+      ]
+    },
+    {
+      "event": "tx",
+      "mono": 16299.011686826,
+      "request_started": 16299.011482945,
+      "packet_hex": "b7 b8 01 04 01 d8 b3",
+      "preempt": true,
+      "response_started": 16299.011482945
+    },
+    {
+      "event": "rx",
+      "mono": 16299.05147593,
+      "size": 20,
+      "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+    },
+    {
+      "event": "feedback",
+      "mono": 16299.05147593,
+      "rpm": [
+        0,
+        0
+      ]
+    },
+    {
+      "event": "tx",
+      "mono": 16299.111802143,
+      "request_started": 16299.111597503,
+      "packet_hex": "b7 b8 01 04 01 d8 b3",
+      "preempt": true,
+      "response_started": 16299.111597503
+    },
+    {
+      "event": "rx",
+      "mono": 16299.151453974,
+      "size": 20,
+      "hex": "b8 b7 01 d8 0e 00 00 00 5f ec ff ff 00 00 00 4f 13 00 00 ff"
+    },
+    {
+      "event": "feedback",
+      "mono": 16299.151453974,
+      "rpm": [
+        0,
+        0
+      ]
+    },
+    {
+      "event": "tx",
+      "mono": 16299.231732502,
+      "request_started": 16299.231497473,
+      "packet_hex": "b7 b8 01 04 01 d8 b3",
+      "preempt": true,
+      "response_started": 16299.231497473
+    },
+    {
+      "event": "tx",
+      "mono": 16299.53210362,
+      "request_started": 16299.531651136,
+      "packet_hex": "b7 b8 01 cf 07 01 00 00 01 00 00 01 b7",
+      "preempt": true,
+      "response_started": 16299.531651136
+    }
+  ],
+  "driver_tick_history": [
+    {
+      "start_mono": 16299.05138934,
+      "idle_since_previous_end_s": 0.019711381999513833,
+      "core_s": 0.0004020409996883245,
+      "raw_publish_s": 0.000647920000119484,
+      "position_publish_s": 0.0005145169998286292,
+      "total_callback_s": 0.0015734219996375032
+    },
+    {
+      "start_mono": 16299.071453006,
+      "idle_since_previous_end_s": 0.01849024399962218,
+      "core_s": 0.0001998999996430939,
+      "total_callback_s": 0.00020502900042629335
+    },
+    {
+      "start_mono": 16299.091338086,
+      "idle_since_previous_end_s": 0.019680051000250387,
+      "core_s": 0.00017506699987279717,
+      "total_callback_s": 0.00017902999934449326
+    },
+    {
+      "start_mono": 16299.111489766,
+      "idle_since_previous_end_s": 0.019972650001363945,
+      "core_s": 0.00033130299925687723,
+      "status_publish_s": 0.0003196540001226822,
+      "total_callback_s": 0.0007312689995160326
+    },
+    {
+      "start_mono": 16299.131392975,
+      "idle_since_previous_end_s": 0.019171939999068854,
+      "core_s": 0.00018519700097385794,
+      "total_callback_s": 0.0001893820008262992
+    },
+    {
+      "start_mono": 16299.151370014,
+      "idle_since_previous_end_s": 0.019787657000051695,
+      "core_s": 0.0003915779998351354,
+      "raw_publish_s": 0.0006402540002454771,
+      "position_publish_s": 0.0004940549988532439,
+      "total_callback_s": 0.0015352749996964121
+    },
+    {
+      "start_mono": 16299.171257261,
+      "idle_since_previous_end_s": 0.0183519719994365,
+      "core_s": 0.00014438300058827735,
+      "total_callback_s": 0.00014762400132894982
+    },
+    {
+      "start_mono": 16299.191375039,
+      "idle_since_previous_end_s": 0.019970153998656315,
+      "core_s": 0.00017599400052858982,
+      "total_callback_s": 0.00018047500088869128
+    },
+    {
+      "start_mono": 16299.21130414,
+      "idle_since_previous_end_s": 0.01974862600036431,
+      "core_s": 0.00019273399993835483,
+      "total_callback_s": 0.00019736399917746894
+    },
+    {
+      "start_mono": 16299.231399606,
+      "idle_since_previous_end_s": 0.019898102000297513,
+      "core_s": 0.0003552470006980002,
+      "status_publish_s": 0.0006647719983448042,
+      "total_callback_s": 0.001134477999585215
+    },
+    {
+      "start_mono": 16299.251449018,
+      "idle_since_previous_end_s": 0.018914934000349604,
+      "core_s": 0.0001908449994516559,
+      "total_callback_s": 0.00019575199985411018
+    },
+    {
+      "start_mono": 16299.271267179,
+      "idle_since_previous_end_s": 0.019622408999566687,
+      "core_s": 0.00015284599976439495,
+      "total_callback_s": 0.00015642000107618514
+    },
+    {
+      "start_mono": 16299.291592488,
+      "idle_since_previous_end_s": 0.020168888999251067,
+      "core_s": 0.00023004800095804967,
+      "total_callback_s": 0.0002355110009375494
+    },
+    {
+      "start_mono": 16299.311361336,
+      "idle_since_previous_end_s": 0.019533336999302264,
+      "core_s": 0.00017432700042263605,
+      "total_callback_s": 0.0001788829995348351
+    },
+    {
+      "start_mono": 16299.33143684,
+      "idle_since_previous_end_s": 0.01989662100095302,
+      "core_s": 0.00041596699884394184,
+      "status_publish_s": 0.001002946000880911,
+      "total_callback_s": 0.0016349969992006663
+    },
+    {
+      "start_mono": 16299.351403755,
+      "idle_since_previous_end_s": 0.01833191799960332,
+      "core_s": 0.00016290100029436871,
+      "total_callback_s": 0.0001664749997871695
+    },
+    {
+      "start_mono": 16299.37132382,
+      "idle_since_previous_end_s": 0.019753590000618715,
+      "core_s": 0.00016223500097112264,
+      "total_callback_s": 0.00016610500097158365
+    },
+    {
+      "start_mono": 16299.391340418,
+      "idle_since_previous_end_s": 0.01985049299946695,
+      "core_s": 0.00018967799951497,
+      "total_callback_s": 0.00019343699932505842
+    },
+    {
+      "start_mono": 16299.411317388,
+      "idle_since_previous_end_s": 0.0197835330000089,
+      "core_s": 0.0001515320000180509,
+      "total_callback_s": 0.00015519800035690423
+    },
+    {
+      "start_mono": 16299.431399854,
+      "idle_since_previous_end_s": 0.01992726800017408,
+      "core_s": 0.00018973400074173696,
+      "total_callback_s": 0.00019451200023468118
+    },
+    {
+      "start_mono": 16299.451398305,
+      "idle_since_previous_end_s": 0.01980393899975752,
+      "core_s": 0.00016673500067554414,
+      "status_publish_s": 0.00029859999995096587,
+      "total_callback_s": 0.000545943999895826
+    },
+    {
+      "start_mono": 16299.471515548,
+      "idle_since_previous_end_s": 0.019571299000745057,
+      "core_s": 0.0001953449991560774,
+      "total_callback_s": 0.0002005480000661919
+    },
+    {
+      "start_mono": 16299.491365004,
+      "idle_since_previous_end_s": 0.019648907998998766,
+      "core_s": 0.00016514200069650542,
+      "total_callback_s": 0.00016890100050659385
+    },
+    {
+      "start_mono": 16299.511313975,
+      "idle_since_previous_end_s": 0.019780069998887484,
+      "core_s": 0.00032550700052524917,
+      "total_callback_s": 0.00033241400160477497
+    }
+  ],
+  "current_tick": {
+    "start_mono": 16299.5315339,
+    "idle_since_previous_end_s": 0.019887510999978986,
+    "core_s": 0.0006271069996728329
+  },
+  "limitations": [
+    "Bounded application-level history; not a continuous wire capture.",
+    "Successful write records do not prove device execution or physical stopping."
+  ]
+}

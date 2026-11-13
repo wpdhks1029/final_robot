@@ -1,0 +1,1 @@
+REPLAY_INPUT_CHECK: static_TF=[('base_link', 'imu_link'), ('base_link', 'laser')], max_abs_wz=0.019301, yaw_span=0.008151

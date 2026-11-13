@@ -1,0 +1,3 @@
+[WARN] [1793009297.330659651] [transform_listener_impl_aaaaf820dc20]: New publisher discovered on topic '/tf_static', offering incompatible QoS. No messages will be sent to it. Last incompatible policy: DURABILITY_QOS_POLICY
+[WARN] [1793009300.347698477] [tf2_buffer]: Detected jump back in time. Clearing TF buffer.
+[INFO] [1793009331.952384659] [rclcpp]: signal_handler(SIGINT/SIGTERM)
